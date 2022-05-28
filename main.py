@@ -1,41 +1,27 @@
-import tkinter as tk
-from tkinter import ttk
-from tkinter import filedialog as fd
-from tkinter.messagebox import showinfo
-
-# create the root window
-root = tk.Tk()
-root.title('Tkinter Open File Dialog')
-root.resizable(False, False)
-root.geometry('300x150')
+from tkinter import * 
+from PIL import ImageTk, Image 
 
 
-def select_file():
-    filetypes = (
-        ('text files', '*.txt'),
-        ('All files', '*.*')
-    )
+class MainWindow:
 
-    filename = fd.askopenfilename(
-        title='Open a file',
-        initialdir='/',
-        filetypes=filetypes)
-
-    showinfo(
-        title='Selected File',
-        message=filename
-    )
-
-
-# open button
-open_button = ttk.Button(
-    root,
-    text='Open a File',
-    command=select_file
-)
-
-open_button.pack(expand=True)
+    def __init__(self,root):
+        self.root = root 
+        self.root.title('MyWindow')
+        self.root.geometry('350x450')
+        #self.root.resizable(False,False)
+        img = PhotoImage(file = '/home/umut/Desktop/alatoo.png')
+        self.root.call('wm', 'iconphoto',self.root._w, img)
+        canvas = Canvas(self.root,width=600,height=400)
+        canvas.pack()
+        image = ImageTk.PhotoImage(Image.open('alatoo.png'))
+        canvas.create_image(50,10,anchor = NW, image = image)
+        canvas.pack()
+        self.root.mainloop()
+    def run(self):
+        self.root.mainloop()
 
 
-# run the application
-root.mainloop()
+window = Tk()
+a = MainWindow(window)
+a.run()
+
