@@ -1,7 +1,8 @@
-from PIL import Image, ImageTk 
-from tkinter import filedialog as f
+from tkinter import *
 
-ifile = f.askopenfile(title='choose a file')
+root = Tk()
 
-image = Image.open(ifile)
-image.show()
+b = Button(root, text="Delete me", command=lambda: b.pack_forget())
+b.pack()
+
+root.mainloop()

@@ -42,25 +42,23 @@ class Black(Frame):
 
         Button(self,text='Apply filter',command=self.apply_filter).pack()
     def open_image(self):
-        ifile = F.askopenfile(parent=self,mode='rb',title='Choose a file')
-        if ifile:
-            path = Image.open(ifile)
-            self.image2 = ImageTk.PhotoImage(path)
-            self.label.configure(image=self.image2)
-            self.label.image = self.image2 
-            self.img = np.array(path)
-            self.img = self.img[:,:,::-1].copy()
-        self.image2.show()
-        
-            
-  
+
+        self.ifile = F.askopenfile(parent=self,mode='rb',title='Choose a file')
+        limit = (590,350)
+        if self.ifile:
+            self.image = Image.open(self.ifile)
+            self.image.thumbnail(limit)
+            self.image = ImageTk.PhotoImage(self.image)
+            self.canvas.create_image(200,150,anchor = 'center',image=self.image)
+          
       
     def apply_filter(self):
-        canvas = Canvas(self,width=300,height=300)
-        canvas.pack()
-        img = ImageTk.PhotoImage(Image.open(self.image))
+        #self.pack_forget()
+        self.applied = Image.open(self.ifile)
+        self.applied = self.applied.convert("L")
+        self.applied = ImageTk.PhotoImage(self.applied)
+        self.canvas.create_image(200,150,anchor='center',image=self.applied)
 
-        canvas.creat_image(20,20,anchor=NW,image=img)
 
 
 

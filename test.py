@@ -36,7 +36,8 @@ class GUI(Frame):
         
         img_af = ImageTk.PhotoImage(Image.fromarray(img_af))
         self.label.configure(image=img_af)
-        self.label.image = img_af
+        self.label.image = img_af 
+        
 
 
         
