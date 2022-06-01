@@ -68,5 +68,5 @@ Project is: _in progress_
 - Algroithm for switching between frames is used  [from there](https://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter#:~:text=One%20way%20to%20switch%20frames,use%20any%20generic%20Frame%20class.)
 
 ## Contact
-Created by [ymytbek0314@gmail.com](https://github.com/Arpidinov)) - feel free to contact me!
+Created by [github.com](https://github.com/Arpidinov)) - feel free to contact me!
 
