@@ -3,7 +3,7 @@
 
 ## Table of Contents
 * [About](#About)
-* [Requirements](#technologies-used)
+* [Requirements](#requirements)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 
