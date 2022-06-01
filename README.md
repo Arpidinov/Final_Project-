@@ -24,10 +24,15 @@
 
 ## Screenshots
 ![Main page](sreenshots/1.png)
+
 ![Filter page](screenshots/2.png)
+
 ![Apply](screenshots/3.png)
+
 ![Applied](screenshots/4.png)
+
 ![Save your image](screenshots/5.png)
+
 ![Copyright](screenshots/6.png)
 
 
@@ -65,5 +70,5 @@ Project is: _in progress_
 
 
 ## Contact
-Created by [ymytbek0314@gmail.com](ymytbek0314@gmail.com) - feel free to contact me!
+Created by [ymytbek0314@gmail.com](https://github.com/Arpidinov)) - feel free to contact me!
 
