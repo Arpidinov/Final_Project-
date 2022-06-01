@@ -24,15 +24,15 @@
 
 ## Screenshots
 ![Main page](sreenshots/1.png)
-
+### Filter page
 ![Filter page](screenshots/2.png)
-
+### Apply
 ![Apply](screenshots/3.png)
-
+### Converted
 ![Applied](screenshots/4.png)
-
+### Save your image 
 ![Save your image](screenshots/5.png)
-
+### Copyright
 ![Copyright](screenshots/6.png)
 
 
@@ -65,9 +65,7 @@ Project is: _in progress_
 ## Acknowledgements
 
 
-- This project was based on [this tutorial]([https://www.example.com](https://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter#:~:text=One%20way%20to%20switch%20frames,use%20any%20generic%20Frame%20class.)).
-
-
+- This project was based on [this tutorial](https://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter#:~:text=One%20way%20to%20switch%20frames,use%20any%20generic%20Frame%20class.)
 
 ## Contact
 Created by [ymytbek0314@gmail.com](https://github.com/Arpidinov)) - feel free to contact me!
