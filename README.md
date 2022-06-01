@@ -12,11 +12,11 @@
 <!-- * [License](#license) -->
 
 
-## General Information
+## About
 - This app converts your image to black&white filter
 - The purpose of  project is to make easier to filter images 
 
-## Technologies Used
+## Requirements
 - Pillow - version 7.0.0
 - Tcl/Tk - version 8.6
 
