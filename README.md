@@ -2,8 +2,8 @@
 > This is simple app that converts your image to black&white filte and save it
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [About](#general-information)
+* [Requirements](#technologies-used)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 
@@ -23,57 +23,47 @@
 
 
 ## Screenshots
-![Main page](1.png)
-![Filter page](2.png)
-![Apply](3.png)
-![Applied](4.png)
-![Save your image](5.png)
-![Copyright](6.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![Main page](sreenshots/1.png)
+![Filter page](screenshots/2.png)
+![Apply](screenshots/3.png)
+![Applied]screenshots/(4.png)
+![Save your image](screenshots/5.png)
+![Copyright]screenshots/(6.png)
+
+
+
+
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+First clone this repository 
+Then install tk with as following 
+
+`pip install tk`
+
+Finally install Pillow library 
+
+`python3 -m pip install --upgrade pip`
+`python3 -m pip install --upgrade Pillow`
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_ 
 
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by 
+- This project was based on [this tutorial]([https://www.example.com](https://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter#:~:text=One%20way%20to%20switch%20frames,use%20any%20generic%20Frame%20class.)).
+
 
 
 ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
