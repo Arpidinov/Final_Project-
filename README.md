@@ -26,9 +26,9 @@
 ![Main page](sreenshots/1.png)
 ![Filter page](screenshots/2.png)
 ![Apply](screenshots/3.png)
-![Applied]screenshots/(4.png)
+![Applied](screenshots/4.png)
 ![Save your image](screenshots/5.png)
-![Copyright]screenshots/(6.png)
+![Copyright](screenshots/6.png)
 
 
 
@@ -58,12 +58,12 @@ Project is: _in progress_
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by 
+
+
 - This project was based on [this tutorial]([https://www.example.com](https://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter#:~:text=One%20way%20to%20switch%20frames,use%20any%20generic%20Frame%20class.)).
 
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [ymytbek0314@gmail.com](ymytbek0314@gmail.com) - feel free to contact me!
 
