@@ -103,6 +103,8 @@ class Copyright(Frame):
      
             self.label = Label(self,text = f"Kind: Application\nWhere: Window, Linux\n Created : Sunday, 30 May 2022\n Version: 1.01\n Copyright: Copyright {symbol} 2022 Alatoo Inc. All rights reserved" )
             self.label.pack(pady=150)
+            
+            Button(self,text = 'Return to main page',fg = 'red',command = lambda: main.switch_frame(MainPage)).pack()
 
 
 
