@@ -23,7 +23,12 @@
 
 
 ## Screenshots
-![Example screenshot](1.png)
+![Main page](1.png)
+![Filter page](2.png)
+![Apply](3.png)
+![Applied](4.png)
+![Save your image](5.png)
+![Copyright](6.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
