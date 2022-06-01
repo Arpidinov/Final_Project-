@@ -2,7 +2,7 @@
 > This is simple app that converts your image to black&white filte and save it
 
 ## Table of Contents
-* [About](#general-information)
+* [About](#About)
 * [Requirements](#technologies-used)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
